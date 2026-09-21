@@ -18,6 +18,7 @@ Unlike near-wallet-selector, this library provides a secure execution environmen
 - MyNearWallet
 - Nightly Wallet
 - Near Mobile Wallet
+- NEAR Auth (social login, no seed phrase)
 - Unity Wallet
 - OKX Wallet
 - Hana Wallet
