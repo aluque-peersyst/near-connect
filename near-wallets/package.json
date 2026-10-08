@@ -11,7 +11,7 @@
   "homepage": "https://github.com/hot-dao/near-selector",
   "scripts": {
     "postinstall": "patch-package",
-    "build:wallets": "yarn build:hotwallet && yarn build:mnw && yarn build:meteor && yarn build:wallet-connect && yarn build:nightly && yarn build:okx && yarn build:hana && yarn build:near-auth",
+    "build:wallets": "yarn build:hotwallet && yarn build:mnw && yarn build:meteor && yarn build:wallet-connect && yarn build:nightly && yarn build:okx && yarn build:hana",
     "build:wallet-connect": "PACKAGE=wallet-connect vite build",
     "build:hotwallet": "PACKAGE=hotwallet vite build",
     "build:nightly": "PACKAGE=nightly vite build",
@@ -19,7 +19,6 @@
     "build:okx": "PACKAGE=okx vite build",
     "build:mnw": "PACKAGE=mnw vite build",
     "build:hana": "PACKAGE=hana vite build",
-    "build:near-auth": "PACKAGE=near-auth vite build",
     "type-check": "tsc --noEmit"
   },
   "devDependencies": {

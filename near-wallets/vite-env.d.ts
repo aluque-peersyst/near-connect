@@ -15,11 +15,6 @@ interface Window {
     network: "testnet" | "mainnet";
     location: string;
 
-    outerWidth: number;
-    outerHeight: number;
-    screenX: number;
-    screenY: number;
-
     ready: (wallet: any) => void;
     external: (entity: string, key: string, ...args: any[]) => Promise<any>;
 
@@ -30,7 +25,6 @@ interface Window {
     ui: {
       whenApprove: (options: { title: string; button: string }) => Promise<void>;
       showIframe: () => void;
-      hideIframe: () => void;
     };
 
     open: (
